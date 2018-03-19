@@ -6,9 +6,9 @@
         
         <title>BeKey</title>
         
-        
-        <link rel="stylesheet" href="style.css">
-        <link rel ="stylesheet"  href="popup.css" >
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    
 
 
     </head>
@@ -16,10 +16,70 @@
     	<header>		
 				
 		</header>
-		<div class="container">
+		<main class="container">
+		
+		<div class="row">
+			<section class="sidebar col-sm-3 ">
+
+				<nav class="menu-sidebar">
+					<ul>
+						<li><a class="sidebar-logo"><img src="image/logo.png"  alt="Логотоип"/></a></li>
+						<li><a href="about.html">О компании</a></li>
+            			<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+
+				</nav>
+
+				<form class="contact-form form-horizontal" action="" method="post">
+					<div class="form-group">
+						<h3>Задайте вопрос</h3>
+					</div>
+              		
+              		<div class="form-group">
+	               	 <input type="text"  class="form-control" name="login" value="" placeholder="Ваше имя">
+	               	</div>
+	               	<div class="form-group">
+	                	<input type="tel"   class="form-control" name="phone" value="" placeholder="Контактный телефон">
+	                </div>
+	                <div class="form-group">
+	               		<input type="email" class="form-control"  name="email" value="" placeholder="E-mail">
+	               	</div>
+	               	<div class="form-group">
+	               	 <textarea  class="form-control" placeholder="Ваш вопрос"></textarea>
+	            	</div>
+             		<div class="form-group">
+             			<button class="button" type="submit">Спросить</button>
+             		</div>
+            	</form>  
+
+				
+			</section>
+
+			<section class="about-us col-sm-8  col-md-offset-1">
+
+				<h2>мы будем полезны</h2>
+					<ul>
+						<li class="about-us-person">
+							<img src="image/person1.png" alt="person1"/>
+							<h3>Lorem Ipsum</h3>
+							<p>Повседневная практика показывает, что новая модель организационной деятельности обеспечивает широкому кругу специалистов участие в формирование форм развития</p>
+						</li>
+						<li class="about-us-person">
+							<img src="image/person2.png" alt="person2"/>
+							<h3>Lorem Ipsum</h3>
+							<p>Разнообразный и богатый опыт, сложившаяся структура организации в значительной степени обуславливает создание позиций, занимаемых участниками в отношении поставленных задач</p>
+						</li>
+						<li class="about-us-person">
+							<img src="image/person3.png" alt="person3"/>
+							<h3>Lorem Ipsum</h3>
+							<p>Повседневная практика показывает, что сложившаяся структура организации позволяет оценить значение направлений прогрессивного развития</p>
+						</li>
+					</ul>
+			</section>
+		</div>
 				
 
-		</div>
+		</main>
 
    
 
